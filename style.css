@@ -156,6 +156,7 @@ body {
     height: auto;
     object-fit: contain;
     pointer-events: none;
+    border: 3px solid #2C2C2C;
 }
 
 
