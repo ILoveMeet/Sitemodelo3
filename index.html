@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclui o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Define o ícone da página -->
+    <link rel="icon" href="img e music/i_love_meet-removebg-preview.png">
+
+    <!--Links do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!--Nome da pagina-->
+    <title>Nossas Memorias</title>
+
+</head>
+
+<body><br><br><br>
+
+    <!-- Inicio do container -->
+    <div class="container">
+    
+        <!-- Inclui o player de musica -->
+        <div id="musica">
+
+            <div class="info">
+                <div class="title">Sparks</div>
+                <div class="artist">Coldplay</div>
+            </div>
+
+            <div class="controls">
+                <button class="btn" id="playPauseBtn"><i class="fas fa-play"></i></button>
+            </div>
+
+            <audio id="audio" autoplay>
+                <source src="img e music/Coldplay - Sparks.mp3" type="audio/mpeg">
+            </audio>
+
+        </div><br>
+
+        <!-- Inclui as fotos -->
+        <div id="fotos">
+
+            <img src="img e music/1.jpg" class="active">
+            <img src="img e music/2.jpg">
+            <img src="img e music/3.jpg">
+            <img src="img e music/4.jpg">
+
+        </div><br>
+
+        <!-- Inclui o cronometro -->
+        <div id="tempo-container">
+
+            <p id="titulo">Juntos há:</p>
+            <p id="tempo"></p>
+            <p id="tempo-detalhado"></p>
+
+        </div>
+
+        <!-- Inclui uma linha no site -->
+        <hr class="linha">
+
+        <!-- Inclui um text no site -->
+        <div id="texto">
+
+            <p>
+                Em meio a tanta correria, pessoas indo e vindo, dias que parecem nunca acabar, é no seu sorriso que eu encontro paz. Você tem esse poder de transformar um instante comum em algo inesquecível.
+            </p>
+            
+        </div><br>
+
+        <!-- Inclui um video ao site -->
+        <section class="video-section">
+
+            <video autoplay muted loop id="background-video">
+
+              <source src="img e music/Video1.mp4" type="video/mp4">
+
+            </video>
+            
+          </section>
+
+        <!-- Inclui um text no footer -->
+        <footer>
+
+            <p id="p1" id="clique-footer" onclick="redirecionarParaPagina1()">Desenvolvido por I Love Meet</p>
+    
+        </footer>
+    
+
+        <!-- Inclui o arquivo de script JavaScript -->
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+
+</html>
