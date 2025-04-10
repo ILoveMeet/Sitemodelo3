@@ -215,8 +215,13 @@ footer {
         height: 40vh;
     }
 
-    #tempo-container {
-        font-size: 120%;
+    #tempo {
+        font-size: 100%;
+    }
+
+    #tempo-detalhado {
+        font-size: 85%;
+        white-space: nowrap;
     }
 
     p {
@@ -236,31 +241,13 @@ footer {
         width: 95%;
     }
 
-    #tempo-container {
-        font-size: 120%;
+    #tempo {
+        font-size: 100%;
+    }
+
+    #tempo-detalhado {
+        font-size: 85%;
+        white-space: nowrap;
     }
 }
 
-/* Ajustes para telas grandes (desktops) */
-@media (min-width: 1200px) {
-    #fotos {
-        width: 80vw;
-        height: 200vh;
-    }
-
-    #musica {
-        width: 125%;
-    }
-
-    #tempo-container {
-        font-size: 120%;
-    }
-
-    .container {
-        max-width: 1200px;
-    }
-
-    p {
-        font-size: 210%;
-    }
-}
